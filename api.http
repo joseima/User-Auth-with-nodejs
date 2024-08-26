@@ -1,0 +1,21 @@
+### home
+GET http://localhost:3000
+
+
+### Crear un usuario con POST
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "Kumaru",
+  "password": "123456"
+}
+
+### Login
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "Kumaru",
+  "password": "123456"
+}
